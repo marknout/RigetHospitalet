@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 5439947534451043251}
   - component: {fileID: 2044899217}
   - component: {fileID: 7423387059269117227}
+  - component: {fileID: 239243386}
   m_Layer: 0
   m_Name: Flower
   m_TagString: Untagged
@@ -73,7 +74,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -132
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300020, guid: ac6216c4b248763448b33d5df2dcbb2b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -99,16 +100,16 @@ BoxCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
-    border: {x: 0.049999997, y: 0.049999997, z: 0.049999997, w: 0.049999997}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.16, y: 0.16}
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.52655613, y: 0.22219245}
+    oldSize: {x: 0.63, y: 0.43}
     newSize: {x: 0.2, y: 0.2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.23, y: 0.21}
+  m_Size: {x: 0.64, y: 0.41}
   m_EdgeRadius: 0
 --- !u!114 &5439947534451043262
 MonoBehaviour:
@@ -136,8 +137,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Foodprefab: {fileID: 3249166301797421424, guid: 81641a28a81ff324391239769d0eb1ab,
     type: 3}
-  center: {x: 0, y: 0}
-  size: {x: 10, y: 10}
+  center: {x: 0, y: -1.5}
+  size: {x: 13, y: 8}
 --- !u!114 &2044899217
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -162,3 +163,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7081e94f1a198e24198d1c549eb6c409, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &239243386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5439947534451043253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fe1bc823fe714d4ba2877e373f55806, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speechBubble: {fileID: 0}

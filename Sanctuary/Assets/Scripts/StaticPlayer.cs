@@ -4,7 +4,7 @@ using UnityEngine;
 
 public static class StaticPlayer
 {
-    public enum PlayerState {noState, axeState, shovelState, waterState };
+    public enum PlayerState {noState, axeState, shovelState, waterState, infoState };
     public static PlayerState playerState;
 }
 
