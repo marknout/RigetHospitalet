@@ -21,7 +21,9 @@ public class ParticleActivate : MonoBehaviour
     }
     void OnMouseDown()
     {
-        particles.Play();
+        if (StaticPlayer.playerState == StaticPlayer.PlayerState.noState)
+            particles.Play();
         
-    }
+    
+}
 }

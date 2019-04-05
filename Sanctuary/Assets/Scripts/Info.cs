@@ -11,12 +11,11 @@ public class Info : MonoBehaviour
         speechBubble.enabled = false;
     }
 
-
-    void OnMouseOver()
+    private void OnMouseOver()
     {
         if (Input.GetMouseButtonDown(0))
         {
-            if (StaticPlayer.playerState == StaticPlayer.PlayerState.infoState)
+            if ((StaticPlayer.playerState == StaticPlayer.PlayerState.infoState))
             {
                 speechBubble.enabled = true;
             }

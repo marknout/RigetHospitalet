@@ -21,7 +21,10 @@ public class DandilionScript : MonoBehaviour
     }
     void OnMouseDown()
     {
-        dandilionSeeds.Play();
-        this.gameObject.GetComponent<SpriteRenderer>().enabled = false;
+        if (StaticPlayer.playerState == StaticPlayer.PlayerState.noState)
+        { dandilionSeeds.Play();
+              this.gameObject.GetComponent<SpriteRenderer>().enabled = false;
+    }
+
     }
 }
