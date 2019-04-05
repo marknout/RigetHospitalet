@@ -292,7 +292,6 @@ GameObject:
   - component: {fileID: 7245230479816387516}
   - component: {fileID: 6319197579756596432}
   - component: {fileID: 1122115652564428944}
-  - component: {fileID: 1122115652564428940}
   - component: {fileID: 4721394648732262939}
   m_Layer: 0
   m_Name: Dandilion test 3
@@ -310,7 +309,7 @@ Transform:
   m_GameObject: {fileID: 3336955209604607231}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2.4578524, y: 0.9692538, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children:
   - {fileID: 3336955210069777877}
   - {fileID: 3336955210040715121}
@@ -471,22 +470,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.07, y: 1.13}
   m_EdgeRadius: 0
---- !u!114 &1122115652564428940
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3336955209604607231}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03bcbfb3522ede14785ce0f4b47a47e9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Foodprefab: {fileID: 3151234204060000228, guid: cd5299d83eeea8542bb6bc739930411d,
-    type: 3}
-  center: {x: 0, y: 1.29}
-  size: {x: 17.05, y: 8.9}
 --- !u!114 &4721394648732262939
 MonoBehaviour:
   m_ObjectHideFlags: 0
