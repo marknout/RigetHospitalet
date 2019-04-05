@@ -9,14 +9,23 @@ public class RandomSpawnObject : MonoBehaviour {
 
 	//spawn prefabs once per 2 seconds
 	public float spawnRate = 2f;
+    private float STimer;
+   
 
-	//variable to set next spawn time
-	float nextSpawn = 0f;
+    //variable to set next spawn time
+    float nextSpawn = 0f;
 
 	//variable to contain random value
 	int whatToSpawn;
 
-	    // Update is called once per frame
+
+    void Start()
+    {
+        STimer = Random.Range(3f, 9f);
+    }
+
+
+    // Update is called once per frame
     void Update()  {
 		if (Time.time > nextSpawn) { // if time has come
 			whatToSpawn = Random.Range (1,6); //define random value between 1 and 5 (6 is exclusive)
@@ -42,7 +51,7 @@ public class RandomSpawnObject : MonoBehaviour {
     }
 
 			//set next spawn time
-			nextSpawn = Time.time + spawnRate;
+			nextSpawn = Time.time + STimer;
 		}
-}
+    }
 }
