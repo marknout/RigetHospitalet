@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3336955208522709300}
   - component: {fileID: 3336955208522709323}
+  - component: {fileID: 1671627664978040482}
   m_Layer: 0
   m_Name: Stem
   m_TagString: Untagged
@@ -79,6 +80,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1671627664978040482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3336955208522709301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7081e94f1a198e24198d1c549eb6c409, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3336955209589033349
 GameObject:
   m_ObjectHideFlags: 0
@@ -89,6 +102,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3336955209589033348}
   - component: {fileID: 3336955209589033371}
+  - component: {fileID: 7848725709386574846}
   m_Layer: 0
   m_Name: Leaves
   m_TagString: Untagged
@@ -158,6 +172,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &7848725709386574846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3336955209589033349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7081e94f1a198e24198d1c549eb6c409, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3336955209592230245
 GameObject:
   m_ObjectHideFlags: 0
@@ -168,6 +194,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3336955209592230244}
   - component: {fileID: 3336955209592230267}
+  - component: {fileID: 5098388453389389173}
   m_Layer: 0
   m_Name: Dot
   m_TagString: Untagged
@@ -237,6 +264,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &5098388453389389173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3336955209592230245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7081e94f1a198e24198d1c549eb6c409, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3336955209604607231
 GameObject:
   m_ObjectHideFlags: 0
@@ -254,7 +293,7 @@ GameObject:
   - component: {fileID: 6319197579756596432}
   - component: {fileID: 1122115652564428944}
   - component: {fileID: 1122115652564428940}
-  - component: {fileID: 1122115652564428947}
+  - component: {fileID: 4721394648732262939}
   m_Layer: 0
   m_Name: Dandilion test 3
   m_TagString: Untagged
@@ -448,7 +487,7 @@ MonoBehaviour:
     type: 3}
   center: {x: 0, y: 1.29}
   size: {x: 17.05, y: 8.9}
---- !u!114 &1122115652564428947
+--- !u!114 &4721394648732262939
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -471,6 +510,7 @@ GameObject:
   - component: {fileID: 3336955210040715121}
   - component: {fileID: 3336955210040715127}
   - component: {fileID: 3336955210040715120}
+  - component: {fileID: 3070664561888137472}
   m_Layer: 0
   m_Name: Dandilion seeds
   m_TagString: Untagged
@@ -5225,6 +5265,18 @@ ParticleSystemRenderer:
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
   m_MaskInteraction: 0
+--- !u!114 &3070664561888137472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3336955210040715122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7081e94f1a198e24198d1c549eb6c409, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3336955210069777879
 GameObject:
   m_ObjectHideFlags: 0
@@ -5235,6 +5287,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3336955210069777877}
   - component: {fileID: 3336955210069777878}
+  - component: {fileID: 1796252648976590176}
   m_Layer: 0
   m_Name: flower
   m_TagString: Untagged
@@ -5304,6 +5357,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1796252648976590176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3336955210069777879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7081e94f1a198e24198d1c549eb6c409, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &4098513876414854799
 PrefabInstance:
   m_ObjectHideFlags: 0

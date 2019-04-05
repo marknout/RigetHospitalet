@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 6191301261081347128}
   - component: {fileID: 729959252253263625}
   - component: {fileID: 7315938668563848923}
+  - component: {fileID: 4333090344840399517}
   m_Layer: 0
   m_Name: Flower (6)
   m_TagString: Flower
@@ -148,7 +149,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9206846655200918189}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fdd5b4e2f2eea714287623087e05702e, type: 3}
   m_Name: 
@@ -190,6 +191,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speechBubble: {fileID: 4086819025669084349, guid: 212f0a798c0f50b4d90058493278b005,
+    type: 3}
+--- !u!114 &4333090344840399517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9206846655200918189}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa6016520a6cf8d49ad81bbbfd51b636, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FlowerToRemove: {fileID: 1662560948333417083, guid: 87c35af914ac65846987888195aeee73,
     type: 3}
 --- !u!1001 &6275314687738348820
 PrefabInstance:

@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 8132733320783675002}
   - component: {fileID: 2627703479824913968}
   - component: {fileID: 7509879389188231753}
+  - component: {fileID: 7986148518716743619}
   m_Layer: 0
   m_Name: Flower (1)
   m_TagString: Flower
@@ -132,7 +133,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3249166301797421424}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fdd5b4e2f2eea714287623087e05702e, type: 3}
   m_Name: 
@@ -190,6 +191,20 @@ MonoBehaviour:
     type: 3}
   center: {x: 0, y: 1.29}
   size: {x: 17.05, y: 8.9}
+--- !u!114 &7986148518716743619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3249166301797421424}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa6016520a6cf8d49ad81bbbfd51b636, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FlowerToRemove: {fileID: 8465121177431568459, guid: 9189b01bf347b5d4d8b5b3c05b8997ef,
+    type: 3}
 --- !u!1001 &5884919788586733837
 PrefabInstance:
   m_ObjectHideFlags: 0

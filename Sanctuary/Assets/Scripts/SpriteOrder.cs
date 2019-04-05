@@ -3,10 +3,12 @@ using System.Collections;
 
 public class SpriteOrder : MonoBehaviour {
 
-   
-    void Start()
+    void Update()
     {
         GetComponent<SpriteRenderer>().sortingOrder = -(int)(transform.position.y);
     }
+
+
+   
 
 }
