@@ -21,7 +21,7 @@ public class RandomSpawnObject : MonoBehaviour {
 
     void Start()
     {
-        STimer = Random.Range(3f, 9f);
+        STimer = Random.Range(60f, 120f);
     }
 
 

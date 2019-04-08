@@ -5,6 +5,7 @@ using UnityEngine;
 public class Info : MonoBehaviour
 {
     public SpriteRenderer speechBubble;
+    public AudioSource ClickSound;
     // Use this for initialization
     void Start()
     {
@@ -18,6 +19,8 @@ public class Info : MonoBehaviour
             if ((StaticPlayer.playerState == StaticPlayer.PlayerState.infoState))
             {
                 speechBubble.enabled = true;
+                ClickSound.pitch = Random.Range(0.8f, 1.2f);
+                ClickSound.Play();
             }
          }
 

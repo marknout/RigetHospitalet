@@ -18,6 +18,7 @@ GameObject:
   - component: {fileID: 6163747276332021128}
   - component: {fileID: 924211226074511256}
   - component: {fileID: 5633930354238954379}
+  - component: {fileID: 5729495332918639612}
   m_Layer: 0
   m_Name: Flower (4)
   m_TagString: Flower
@@ -206,6 +207,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FlowerToRemove: {fileID: 3987813060033494518, guid: 5d483434027203a45b9021bb7117ab77,
     type: 3}
+--- !u!114 &5729495332918639612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7673648503520157798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b3b64ef9ebd03743b1d0221828cc19b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newSprite: {fileID: 21300030, guid: ac6216c4b248763448b33d5df2dcbb2b, type: 3}
 --- !u!1001 &5010442599090636562
 PrefabInstance:
   m_ObjectHideFlags: 0

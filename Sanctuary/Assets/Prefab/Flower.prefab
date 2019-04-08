@@ -18,6 +18,7 @@ GameObject:
   - component: {fileID: 5623951767710223594}
   - component: {fileID: 392614850458621604}
   - component: {fileID: 392614850458621603}
+  - component: {fileID: 8091021731988565991}
   m_Layer: 0
   m_Name: Flower
   m_TagString: Flower
@@ -138,7 +139,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03bcbfb3522ede14785ce0f4b47a47e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Foodprefab: {fileID: 3151234204060000228, guid: cd5299d83eeea8542bb6bc739930411d,
+  Foodprefab: {fileID: 3249166301797421424, guid: 81641a28a81ff324391239769d0eb1ab,
     type: 3}
   center: {x: -0.91, y: 0.4}
   size: {x: 13.04, y: 5.4}
@@ -205,6 +206,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fdd5b4e2f2eea714287623087e05702e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &8091021731988565991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 392614849428436773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b3b64ef9ebd03743b1d0221828cc19b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newSprite: {fileID: 21300030, guid: ac6216c4b248763448b33d5df2dcbb2b, type: 3}
 --- !u!1 &392614849613252072
 GameObject:
   m_ObjectHideFlags: 0

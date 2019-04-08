@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class Moving : MonoBehaviour
 {
-
+    public AudioSource ClickSound;
     float distance = 10;
 
     private void OnMouseDrag()
@@ -18,6 +18,8 @@ public class Moving : MonoBehaviour
         Vector3 objectPos = Camera.main.ScreenToWorldPoint(mousePos);
 
         transform.position = objectPos;
+            ClickSound.pitch = Random.Range(0.8f, 1.2f);
+            ClickSound.Play();
 
         }
     }

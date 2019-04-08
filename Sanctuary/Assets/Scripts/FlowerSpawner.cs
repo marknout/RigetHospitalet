@@ -1,38 +1,36 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class WeedsSpawn : MonoBehaviour
+public class FlowerSpawner : MonoBehaviour
 {
-
-    private bool Spawn1 = true;
+    [HideInInspector]
+    public bool Spawn1 = false;
+    
     public GameObject Food;
-    private float STimer;
+
+    public float STimerMin, STimerMax;
     public Vector2 center;
     public Vector2 size;
-    public AudioSource ClickSound;
 
     void Start()
     {
-        STimer = Random.Range(10f, 60f);
+        //STimer = Random.Range(10f, 60f);
     }
 
     void Update()
     {
+
         if (Spawn1 == true)
         {
+            Spawn1 = false;
             Vector2 pos = center + new Vector2(Random.Range(-size.x / 3, size.x / 3), Random.Range(-size.y / 7, size.y / 7));
-
-            Instantiate(Food, pos, Quaternion.identity);
-            StartCoroutine(Timer());
-            ClickSound.pitch = Random.Range(0.8f, 1.2f);
-            ClickSound.Play();
+            Instantiate(Food, pos, Quaternion.identity);         
         }
     }
 
-    IEnumerator Timer()
+    public IEnumerator Timer(float time)
     {
-        Spawn1 = false;
-        yield return new WaitForSeconds(STimer);
+        yield return new WaitForSeconds(time);
         Spawn1 = true;
     }
 
@@ -45,3 +43,4 @@ public class WeedsSpawn : MonoBehaviour
 
     }
 }
+
