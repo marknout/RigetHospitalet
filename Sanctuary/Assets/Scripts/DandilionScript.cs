@@ -23,8 +23,10 @@ public class DandilionScript : MonoBehaviour
     {
         if (StaticPlayer.playerState == StaticPlayer.PlayerState.noState)
         { dandilionSeeds.Play();
-              
-    }
+            this.gameObject.GetComponent<Collider>().enabled = false;
+            this.gameObject.GetComponent<SpriteRenderer>().enabled = false;
+
+        }
 
     }
 }
