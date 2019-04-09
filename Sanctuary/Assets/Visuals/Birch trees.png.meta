@@ -116,7 +116,7 @@ TextureImporter:
         width: 162
         height: 425
       alignment: 9
-      pivot: {x: 0.46497846, y: 0.06257297}
+      pivot: {x: 0.45996857, y: 0.085487835}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -131,12 +131,12 @@ TextureImporter:
       name: Birch trees_1
       rect:
         serializedVersion: 2
-        x: 252
-        y: 20
+        x: 251
+        y: 56
         width: 268
-        height: 486
+        height: 452
       alignment: 9
-      pivot: {x: 0.39401153, y: 0.11856245}
+      pivot: {x: 0.39703974, y: 0.06828833}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Sea
   - Flower
+  - Tree1
   layers:
   - Default
   - TransparentFX

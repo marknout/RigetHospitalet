@@ -1,11 +1,12 @@
 ﻿
 using UnityEngine;
 using System.Collections;
-using System;
+
 
 public class Grow : MonoBehaviour
 {
     public Sprite newSprite;
+    public AudioSource ClickSound;
 
 
     void Start()
@@ -21,6 +22,8 @@ public class Grow : MonoBehaviour
             if (StaticPlayer.playerState == StaticPlayer.PlayerState.waterState)
             {
                 this.gameObject.GetComponent<SpriteRenderer>().sprite = newSprite;
+                ClickSound.pitch = Random.Range(0.8f, 1.2f);
+                ClickSound.Play();
             }
         }
 
