@@ -111,6 +111,7 @@ Transform:
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children:
   - {fileID: 1530733030092354927}
+  - {fileID: 1289715662417830794}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -174,6 +175,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a69ba01ded2c76447bdb4162237694e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ClickSound: {fileID: 1289715662695155001}
 --- !u!61 &6226130607258688567
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -213,3 +215,91 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speechBubble: {fileID: 2281435774790850411}
+  ClickSound: {fileID: 1289715662953545709}
+--- !u!1001 &7336952313749534289
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1004884354310270170}
+    m_Modifications:
+    - target: {fileID: 8374420204291708380, guid: 2d7c8934fca87b74d8c2883a9fda134f,
+        type: 3}
+      propertyPath: m_Name
+      value: Sounds
+      objectReference: {fileID: 0}
+    - target: {fileID: 8374420204291708379, guid: 2d7c8934fca87b74d8c2883a9fda134f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.33
+      objectReference: {fileID: 0}
+    - target: {fileID: 8374420204291708379, guid: 2d7c8934fca87b74d8c2883a9fda134f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.9028587
+      objectReference: {fileID: 0}
+    - target: {fileID: 8374420204291708379, guid: 2d7c8934fca87b74d8c2883a9fda134f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0065586716
+      objectReference: {fileID: 0}
+    - target: {fileID: 8374420204291708379, guid: 2d7c8934fca87b74d8c2883a9fda134f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8374420204291708379, guid: 2d7c8934fca87b74d8c2883a9fda134f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8374420204291708379, guid: 2d7c8934fca87b74d8c2883a9fda134f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8374420204291708379, guid: 2d7c8934fca87b74d8c2883a9fda134f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8374420204291708379, guid: 2d7c8934fca87b74d8c2883a9fda134f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8374420204291708379, guid: 2d7c8934fca87b74d8c2883a9fda134f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8374420204291708379, guid: 2d7c8934fca87b74d8c2883a9fda134f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8374420204291708379, guid: 2d7c8934fca87b74d8c2883a9fda134f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2d7c8934fca87b74d8c2883a9fda134f, type: 3}
+--- !u!4 &1289715662417830794 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8374420204291708379, guid: 2d7c8934fca87b74d8c2883a9fda134f,
+    type: 3}
+  m_PrefabInstance: {fileID: 7336952313749534289}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1289715662695155001 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 8374420203864765288, guid: 2d7c8934fca87b74d8c2883a9fda134f,
+    type: 3}
+  m_PrefabInstance: {fileID: 7336952313749534289}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1289715662953545709 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 8374420203754162620, guid: 2d7c8934fca87b74d8c2883a9fda134f,
+    type: 3}
+  m_PrefabInstance: {fileID: 7336952313749534289}
+  m_PrefabAsset: {fileID: 0}

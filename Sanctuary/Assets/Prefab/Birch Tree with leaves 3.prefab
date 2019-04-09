@@ -297,7 +297,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 2fa60a744e56ab843abb7a0cddb0592c, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.122
+  m_Volume: 0.038
   m_Pitch: 3
   Loop: 0
   Mute: 0
@@ -6027,17 +6027,17 @@ GameObject:
   m_Component:
   - component: {fileID: 6583854147913156414}
   - component: {fileID: 6583854147913156415}
-  - component: {fileID: 6583854147913156412}
   - component: {fileID: 6583854147913156413}
-  - component: {fileID: 6583854147913156410}
   - component: {fileID: 6583854147913156411}
   - component: {fileID: 6583854147913156408}
   - component: {fileID: 6583854147913156409}
   - component: {fileID: 6583854147913156407}
   - component: {fileID: 6583854147913156545}
+  - component: {fileID: 65706364}
+  - component: {fileID: 65706359}
   m_Layer: 0
   m_Name: Birch Tree with leaves 3
-  m_TagString: Tree5
+  m_TagString: Tree1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6108,20 +6108,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!136 &6583854147913156412
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6583854147913156404}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.48
-  m_Height: 2.93
-  m_Direction: 1
-  m_Center: {x: 0, y: 2.66, z: 0}
 --- !u!114 &6583854147913156413
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6135,20 +6121,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   particles: {fileID: 6583854146509197370}
---- !u!136 &6583854147913156410
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6583854147913156404}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.2
-  m_Height: 2.97
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.25, z: 0}
 --- !u!114 &6583854147913156411
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6214,6 +6186,51 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   newSprite: {fileID: 21300002, guid: 4be5b7cce5bf0d2459c64c48eb2cbdf2, type: 3}
   ClickSound: {fileID: 4927007495138268979}
+--- !u!61 &65706364
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6583854147913156404}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.06485093, y: 1.7616768}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.45996857, y: 0.085487835}
+    oldSize: {x: 1.62, y: 4.25}
+    newSize: {x: 1.62, y: 4.25}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.62, y: 4.25}
+  m_EdgeRadius: 0
+--- !u!114 &65706359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6583854147913156404}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5731f99ab10246549990bf0fa05cb7ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Spawn1: 0
+  Food: {fileID: 8662793038820679844, guid: 4d8f9040de1a3db43acaed4963f31d3d, type: 3}
+  STimerMin: 3
+  STimerMax: 5
+  center: {x: -0.28, y: -0.15}
+  size: {x: 11.04, y: 4.62}
+  ClickSound: {fileID: 3359938027183797264}
 --- !u!1001 &1769789376203973079
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6279,6 +6296,11 @@ PrefabInstance:
     - target: {fileID: 6490731399309058600, guid: b839c091e4f9ce64993e50cc906f52a9,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1718428536699792530, guid: b839c091e4f9ce64993e50cc906f52a9,
+        type: 3}
+      propertyPath: playOnAwake
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
