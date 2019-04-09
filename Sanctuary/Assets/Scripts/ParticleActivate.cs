@@ -23,7 +23,9 @@ public class ParticleActivate : MonoBehaviour
     {
         if (StaticPlayer.playerState == StaticPlayer.PlayerState.noState)
             particles.Play();
-        
-    
-}
+            this.gameObject.GetComponent<Collider>().enabled = false;
+
+
+
+    }
 }
