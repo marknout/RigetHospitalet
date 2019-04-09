@@ -7,6 +7,10 @@ TagManager:
   - Sea
   - Flower
   - Tree1
+  - Tree2
+  - Tree3
+  - Tree4
+  - Tree5
   layers:
   - Default
   - TransparentFX

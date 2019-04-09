@@ -1,16 +1,4 @@
-﻿
-
-
-
-
-
-
-
-
-
-
-
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -18,18 +6,19 @@ public class Request : MonoBehaviour
 {
     public SpriteRenderer speechBubble;
     public AudioSource ClickSound;
+    private DeleteFlower HiddenItem;
     // Use this for initialization
     void Start()
     {
+
         speechBubble.enabled = false;
     }
 
-   
-
- 
 
 
-    private void OnTriggerStay2D(Collider2D coll)
+
+
+    void OnTriggerStay2D(Collider2D coll)
     {
         if (!coll.isTrigger && coll.CompareTag("Tree1"))
         {
@@ -39,9 +28,16 @@ public class Request : MonoBehaviour
         }
     }
 
-  private  void OnTriggerEnter2D(Collider2D coll)
+
+
+
+
+
+
+    void OnCollisionEnter2D(Collision2D collision)
+        
     {
-        if (coll.isTrigger && coll.CompareTag("Tree1"))
+        if (collision.gameObject.tag == "Tree1" && collision.gameObject.tag == "Tree1" && collision.gameObject.tag == "Tree1" && collision.gameObject.tag == "Tree1" && collision.gameObject.tag == "Tree1")
         {
             speechBubble.enabled = true;
             ClickSound.pitch = Random.Range(0.8f, 1.2f);
@@ -51,7 +47,9 @@ public class Request : MonoBehaviour
 
 
 
+
 }
+
 
 
 
