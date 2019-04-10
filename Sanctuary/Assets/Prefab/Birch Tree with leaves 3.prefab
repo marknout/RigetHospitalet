@@ -6034,7 +6034,7 @@ GameObject:
   - component: {fileID: 6583854147913156407}
   - component: {fileID: 6583854147913156545}
   - component: {fileID: 65706364}
-  - component: {fileID: 65706359}
+  - component: {fileID: 4230915815738513619}
   m_Layer: 0
   m_Name: Birch Tree with leaves 3
   m_TagString: Tree1
@@ -6212,25 +6212,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.62, y: 4.25}
   m_EdgeRadius: 0
---- !u!114 &65706359
+--- !u!114 &4230915815738513619
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6583854147913156404}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5731f99ab10246549990bf0fa05cb7ae, type: 3}
+  m_Script: {fileID: 11500000, guid: c54f63cd3c5f0844ca79f251ef4219df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Spawn1: 0
-  Food: {fileID: 8662793038820679844, guid: 4d8f9040de1a3db43acaed4963f31d3d, type: 3}
-  STimerMin: 3
-  STimerMax: 5
-  center: {x: -0.28, y: -0.15}
-  size: {x: 11.04, y: 4.62}
-  ClickSound: {fileID: 3359938027183797264}
+  newSprite: {fileID: 21300002, guid: 4be5b7cce5bf0d2459c64c48eb2cbdf2, type: 3}
+  ClickSound: {fileID: 4927007495138268979}
+  Map: {fileID: 0}
 --- !u!1001 &1769789376203973079
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -1279,7 +1279,6 @@ GameObject:
   - component: {fileID: 6370491888942425347}
   - component: {fileID: 6370491888942425357}
   - component: {fileID: 6370491888942425371}
-  - component: {fileID: 451002311}
   m_Layer: 0
   m_Name: Dandilion test 3
   m_TagString: Untagged
@@ -1483,25 +1482,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   newSprite: {fileID: 21300000, guid: ad3c124768145c84bb1d25550520fcb8, type: 3}
   ClickSound: {fileID: 2948949668274165913}
---- !u!114 &451002311
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6370491888942425358}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5731f99ab10246549990bf0fa05cb7ae, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Spawn1: 0
-  Food: {fileID: 8614648730548137441, guid: cd5299d83eeea8542bb6bc739930411d, type: 3}
-  STimerMin: 3
-  STimerMax: 3
-  center: {x: -0.59, y: 0.05}
-  size: {x: 11.8, y: 4.91}
-  ClickSound: {fileID: 5831808558913576244}
 --- !u!1 &7532155950726803098
 GameObject:
   m_ObjectHideFlags: 0
@@ -1528,7 +1508,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7532155950726803098}
   m_LocalRotation: {x: -0, y: -0, z: 0.2464772, w: 0.9691486}
-  m_LocalPosition: {x: -0.259, y: 0.857, z: -0.059779238}
+  m_LocalPosition: {x: -0.27, y: 0.84, z: -0.059779238}
   m_LocalScale: {x: 0.19999999, y: 0.19999999, z: 0.19999999}
   m_Children: []
   m_Father: {fileID: 6370491888942425348}
@@ -6332,6 +6312,11 @@ PrefabInstance:
     - target: {fileID: 6490731399309058600, guid: b839c091e4f9ce64993e50cc906f52a9,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1718428536699792530, guid: b839c091e4f9ce64993e50cc906f52a9,
+        type: 3}
+      propertyPath: playOnAwake
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

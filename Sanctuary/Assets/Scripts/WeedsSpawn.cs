@@ -13,7 +13,7 @@ public class WeedsSpawn : MonoBehaviour
 
     void Start()
     {
-        STimer = Random.Range(10f, 60f);
+        STimer = Random.Range(5f, 20f);
     }
 
     void Update()

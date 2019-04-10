@@ -21,9 +21,10 @@ public class Moving : MonoBehaviour
             ClickSound.Play();
 
             transform.position = objectPos;
-            
 
+           
         }
     }
 
 }
+

@@ -1076,7 +1076,7 @@ GameObject:
   - component: {fileID: 8423238266358972065}
   m_Layer: 0
   m_Name: Birch Tree with leaves 2
-  m_TagString: Tree4
+  m_TagString: Tree1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

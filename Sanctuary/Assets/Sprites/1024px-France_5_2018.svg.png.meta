@@ -1,11 +1,9 @@
 fileFormatVersion: 2
-guid: 63e68829d3dcb164f93d7e31b4b286be
+guid: 96cae969d6e622d4894c105abc478a73
 TextureImporter:
   fileIDToRecycleName:
-    21300000: red_flower_new_0
-    21300002: red_flower_new_1
-    21300004: red_flower_new_2
-    21300006: red_flower_new_3
+    21300000: 1024px-France_5_2018.svg_0
+    21300002: 1024px-France_5_2018.svg_1
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -85,29 +83,7 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
   - serializedVersion: 2
-    buildTarget: iPhone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-  - serializedVersion: 2
     buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-  - serializedVersion: 2
-    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -121,13 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: red_flower_new_0
+      name: 1024px-France_5_2018.svg_0
       rect:
         serializedVersion: 2
-        x: 103
-        y: 146
-        width: 121
-        height: 118
+        x: 0
+        y: 148
+        width: 327
+        height: 327
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -135,39 +111,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8bc416a045f3f0d44b86dd5e824b8719
+      spriteID: d08fe4afdc416df46b343bd98f233c99
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: red_flower_new_1
+      name: 1024px-France_5_2018.svg_1
       rect:
         serializedVersion: 2
-        x: 400
-        y: 127
-        width: 188
-        height: 229
-      alignment: 9
-      pivot: {x: 0.48723066, y: 0.22743724}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 590d88f133beefc4182892fdf1f977e5
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: red_flower_new_2
-      rect:
-        serializedVersion: 2
-        x: 772
-        y: 125
-        width: 256
-        height: 387
+        x: 416
+        y: 0
+        width: 608
+        height: 875
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -175,27 +131,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e7b2a03853bc1374ca3336f1e298f0d7
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: red_flower_new_3
-      rect:
-        serializedVersion: 2
-        x: 1208
-        y: 116
-        width: 254
-        height: 498
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7d83dbf60adcf3b46b53a46f33004572
+      spriteID: 778ee1ed883b5fc4daac1923d8ffd05e
       vertices: []
       indices: 
       edges: []
@@ -203,7 +139,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 328374739fc366347a3415b1e3eed2f6
+    spriteID: af7af28e8572da447a658605ba31b6dd
     vertices: []
     indices: 
     edges: []
