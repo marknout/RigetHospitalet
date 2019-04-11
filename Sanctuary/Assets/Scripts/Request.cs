@@ -5,10 +5,11 @@ using UnityEngine;
 public class Request : MonoBehaviour
 {
     public SpriteRenderer speechBubble;
-    public AudioSource ClickSound;
+    public AudioSource sound;
     public AudioSource EnterSound;
     public AudioSource ExitSound;
     private DeleteFlower HiddenItem;
+    public Collider2D Box;
     Collider coll;
     private int AmountBees;
     // Use this for initialization
@@ -25,8 +26,9 @@ public class Request : MonoBehaviour
 
             print("works");
             speechBubble.enabled = true;
-            ClickSound.pitch = Random.Range(0.8f, 1.2f);
-            ClickSound.Play();
+            
+            Box.enabled = true;
+            sound.enabled = true;
         }
     }
 

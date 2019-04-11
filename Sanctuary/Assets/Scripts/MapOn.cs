@@ -27,7 +27,7 @@ public class MapOn : MonoBehaviour
 
 
 
-        if (GameObject.FindGameObjectsWithTag("Tree1").Length > 6)
+        if (GameObject.FindGameObjectsWithTag("Tree1").Length > 7)
         {
             
             speechBubble.enabled = true;
