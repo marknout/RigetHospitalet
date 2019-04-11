@@ -7,11 +7,14 @@ public class Grow : MonoBehaviour
 {
     public Sprite newSprite;
     public AudioSource ClickSound;
+    public ParticleSystem particles;
+    public float delay = 1f;
+    Collider col;
 
 
     void Start()
     {
-    
+        col = GetComponent<Collider>();
     }
 
 
@@ -24,6 +27,9 @@ public class Grow : MonoBehaviour
                 this.gameObject.GetComponent<SpriteRenderer>().sprite = newSprite;
                 ClickSound.pitch = Random.Range(0.8f, 1.2f);
                 ClickSound.Play();
+                particles.Play();
+                StartCoroutine(ParticleCooldown());
+
             }
         }
 
@@ -32,11 +38,11 @@ public class Grow : MonoBehaviour
 
 
 
-    IEnumerator Example()
+    IEnumerator ParticleCooldown()
     {
-
-        yield return 3;
-
+        col.enabled = false;
+        yield return new WaitForSeconds(delay);
+        col.enabled = true;
     }
 
 
