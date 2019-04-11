@@ -6,8 +6,11 @@ public class Request : MonoBehaviour
 {
     public SpriteRenderer speechBubble;
     public AudioSource ClickSound;
+    public AudioSource EnterSound;
+    public AudioSource ExitSound;
     private DeleteFlower HiddenItem;
     Collider coll;
+    private int AmountBees;
     // Use this for initialization
     void Start()
     {
@@ -15,34 +18,58 @@ public class Request : MonoBehaviour
         speechBubble.enabled = false;
     }
 
-
-
-
-
-    void OnTriggerEnter2D(Collider2D coll)
+    private void Update()
     {
-        if (coll.isTrigger && coll.CompareTag("Tree1"))
+        if(AmountBees == 5)
         {
+
+            print("works");
             speechBubble.enabled = true;
             ClickSound.pitch = Random.Range(0.8f, 1.2f);
             ClickSound.Play();
         }
     }
 
+
+
+ 
+
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Tree1")
+        if (collision.gameObject.tag == "Bees")
         {
-            
-            Destroy(gameObject);
+            AmountBees++;
+
+            print("exit");
+            if (ExitSound != null)
+            {
+                EnterSound.pitch = Random.Range(0.8f, 1.2f);
+            ExitSound.Play();
+            }
+        }
+    }
+
+    void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Bees")
+        {
+            AmountBees--;
+
+            print("exit");
+
+           if(ExitSound!= null)
+            {
+                ExitSound.pitch = Random.Range(0.8f, 1.2f);
+                ExitSound.Play();
+            }
+           
         }
     }
 
 
 
 
-
-  //  void OnCollisionEnter2D(Collision2D collision)
+    //  void OnCollisionEnter2D(Collision2D collision)
 
 
 

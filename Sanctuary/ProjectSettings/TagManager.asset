@@ -12,6 +12,12 @@ TagManager:
   - Tree4
   - Tree5
   - Weeds
+  - Bees
+  - Bees1
+  - Bees2
+  - Bees3
+  - Bees5
+  - Bees4
   layers:
   - Default
   - TransparentFX
