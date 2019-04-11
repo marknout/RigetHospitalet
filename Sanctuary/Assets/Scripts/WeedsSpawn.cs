@@ -4,21 +4,22 @@ using System.Collections;
 public class WeedsSpawn : MonoBehaviour
 {
 
-    private bool Spawn1 = true;
+    private bool Spawn2 = true;
     public GameObject Food;
     private float STimer;
     public Vector2 center;
     public Vector2 size;
     public AudioSource ClickSound;
+    
 
     void Start()
     {
-        STimer = Random.Range(5f, 20f);
+        STimer = Random.Range(3f, 15f);
     }
 
     void Update()
     {
-        if (Spawn1 == true)
+        if (Spawn2 == true)
         {
             Vector2 pos = center + new Vector2(Random.Range(-size.x / 3, size.x / 3), Random.Range(-size.y / 7, size.y / 7));
 
@@ -26,14 +27,15 @@ public class WeedsSpawn : MonoBehaviour
             StartCoroutine(Timer());
             ClickSound.pitch = Random.Range(0.8f, 1.2f);
             ClickSound.Play();
+            
         }
     }
 
     IEnumerator Timer()
     {
-        Spawn1 = false;
+        Spawn2 = false;
         yield return new WaitForSeconds(STimer);
-        Spawn1 = true;
+        Spawn2 = true;
     }
 
     void OnDrawGizmosSelected()

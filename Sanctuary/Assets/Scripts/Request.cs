@@ -7,10 +7,11 @@ public class Request : MonoBehaviour
     public SpriteRenderer speechBubble;
     public AudioSource ClickSound;
     private DeleteFlower HiddenItem;
+    Collider coll;
     // Use this for initialization
     void Start()
     {
-
+        coll = GetComponent<Collider>();
         speechBubble.enabled = false;
     }
 
@@ -20,7 +21,7 @@ public class Request : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D coll)
     {
-        if (!coll.isTrigger && coll.CompareTag("Tree1"))
+        if (coll.isTrigger && coll.CompareTag("Tree1"))
         {
             speechBubble.enabled = true;
             ClickSound.pitch = Random.Range(0.8f, 1.2f);
