@@ -4,7 +4,7 @@ using UnityEngine;
 
 
 
-public class Moving : MonoBehaviour
+public class MoveToMouse : MonoBehaviour
 {
     public AudioSource ClickSound;
     float distance = 10;
@@ -12,15 +12,15 @@ public class Moving : MonoBehaviour
     private void OnMouseDrag()
     {
 
-        if (StaticPlayer.playerState == StaticPlayer.PlayerState.shovelState)
-        {
-            
+       
+
             Vector3 mousePos = new Vector3(Input.mousePosition.x, Input.mousePosition.y, distance);
-        Vector3 objectPos = Camera.main.ScreenToWorldPoint(mousePos);
+            Vector3 objectPos = Camera.main.ScreenToWorldPoint(mousePos);
             ClickSound.pitch = Random.Range(0.8f, 1.2f);
             ClickSound.Play();
 
             transform.position = objectPos;
+
 
 
             if (transform.position.x > 5)
@@ -32,10 +32,10 @@ public class Moving : MonoBehaviour
                 transform.position = new Vector3(transform.position.x, 2, transform.position.z);
             if (transform.position.y < -2)
                 transform.position = new Vector3(transform.position.x, -2, transform.position.z);
-
-
         }
     }
 
-}
+
+
+
 
