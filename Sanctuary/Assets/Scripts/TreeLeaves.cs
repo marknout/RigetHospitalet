@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ParticleActivate : MonoBehaviour
+public class TreeLeaves : MonoBehaviour
 {
 
     public ParticleSystem particles;
@@ -10,18 +10,12 @@ public class ParticleActivate : MonoBehaviour
 
     Collider col;
 
-    // Start is called before the first frame update
     void Start()
     {
         col = GetComponent<Collider>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-    void OnMouseDown()
+    public void DoTheLeaves()
     {
         if (StaticPlayer.playerState == StaticPlayer.PlayerState.noState)
         {
