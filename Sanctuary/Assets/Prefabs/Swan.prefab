@@ -4719,7 +4719,8 @@ GameObject:
   - component: {fileID: 6920070192931259014}
   - component: {fileID: 6920070192931259017}
   - component: {fileID: 6920070192931259016}
-  m_Layer: 0
+  - component: {fileID: 732143972}
+  m_Layer: 9
   m_Name: Swan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4824,6 +4825,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &732143972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6920070192931259013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cba6cbce3bcd24d4fa5a1c8976b43bc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6920070193065298490
 GameObject:
   m_ObjectHideFlags: 0
