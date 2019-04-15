@@ -5,12 +5,9 @@ using UnityEngine;
 public class SmokeEnabler : MonoBehaviour
 {
     public ParticleSystem smoke;
-    public bool smoking, alive, sound;
+    public bool smoking, alive;
     public float rate = 1f;
     float speed = 3;
-    public AudioSource aSource;
-    public AudioClip soundEffect;
-
 
     // Start is called before the first frame update
     void Start()
@@ -30,13 +27,8 @@ public class SmokeEnabler : MonoBehaviour
             {
                 speed = 3;
                 smoke.Play();
-
-                if (sound)
-                {
-                    aSource.PlayOneShot(soundEffect);
-                    sound = false;
-                }
-            }   
+            }
+                
         }
         else
         {
@@ -44,22 +36,16 @@ public class SmokeEnabler : MonoBehaviour
             {
                 smoke.Stop();
                 speed = 0.5f;
-                StartCoroutine(ParticleClear());
-                if (sound)
-                {
-                    aSource.PlayOneShot(soundEffect);
-                    sound = false;
-                }
+                StartCoroutine(ParticleClear());                
             }
         }
 
         alive = smoke.IsAlive();
     }
 
-    public void DoTheSmoke()
+    private void OnMouseDown()
     {
         smoking = !smoking;
-        sound = true;
     }
 
     IEnumerator ParticleClear()

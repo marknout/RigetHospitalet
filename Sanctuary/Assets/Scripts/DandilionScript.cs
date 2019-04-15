@@ -6,8 +6,20 @@ public class DandilionScript : MonoBehaviour
 {
 
     public ParticleSystem dandilionSeeds;
-   
-    public void DoTheSeeds()
+    
+
+    // Start is called before the first frame update
+    void Start()
+    {
+       
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+    void OnMouseDown()
     {
         if (StaticPlayer.playerState == StaticPlayer.PlayerState.noState)
         {

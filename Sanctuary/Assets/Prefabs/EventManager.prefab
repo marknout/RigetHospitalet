@@ -48,6 +48,10 @@ MonoBehaviour:
   mask:
     serializedVersion: 2
     m_Bits: 512
+  ripple: {fileID: 9160459772187946804, guid: 29d10d9cda018984ea4c1e31ef98bd28, type: 3}
+  time: 4
+  aSource: {fileID: 8986591511984118452}
+  splash: {fileID: 8300000, guid: 8b8c6001ee97d5d4288fa27a4c487ad9, type: 3}
 --- !u!82 &8986591511984118452
 AudioSource:
   m_ObjectHideFlags: 0

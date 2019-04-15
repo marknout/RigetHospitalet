@@ -138,10 +138,10 @@ GameObject:
   - component: {fileID: 7268959010517379244}
   - component: {fileID: 7268959010517379235}
   - component: {fileID: 7268959010517379239}
+  - component: {fileID: 3431202783227194498}
   - component: {fileID: 5231845708897953336}
   - component: {fileID: 6585403426278482836}
   - component: {fileID: 140794344262379655}
-  - component: {fileID: 5400006394639266109}
   m_Layer: 0
   m_Name: Weeds 1
   m_TagString: Weeds
@@ -241,6 +241,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.27, y: 0.55}
   m_EdgeRadius: 0
+--- !u!114 &3431202783227194498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7268959010517379238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a69ba01ded2c76447bdb4162237694e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ClickSound: {fileID: 3880469285386470014}
 --- !u!114 &5231845708897953336
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -280,19 +293,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speechBubble: {fileID: 1671935593091697847}
   ClickSound: {fileID: 3880469284763082366}
---- !u!114 &5400006394639266109
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7268959010517379238}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9816d2b79cdd96e4e93fac1b6f009bf9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ClickSound: {fileID: 3880469285386470014}
 --- !u!1001 &3207409140842403534
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -139,6 +139,7 @@ GameObject:
   - component: {fileID: 3350463587809283526}
   - component: {fileID: 3350463587809283524}
   - component: {fileID: 3350463587809283522}
+  - component: {fileID: 3350463587809283521}
   - component: {fileID: 3350463587809283520}
   - component: {fileID: 3350463587809283534}
   - component: {fileID: 3350463587809283384}
@@ -146,7 +147,6 @@ GameObject:
   - component: {fileID: 5734924092792197674}
   - component: {fileID: 8440221339372760375}
   - component: {fileID: 8440221339372760376}
-  - component: {fileID: 9208079945054135478}
   m_Layer: 0
   m_Name: Birch Tree Island 2 3
   m_TagString: Tree1
@@ -249,6 +249,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speechBubble: {fileID: 3350463588092971475}
   ClickSound: {fileID: 3549275903707338917}
+--- !u!114 &3350463587809283521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3350463587809283533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a69ba01ded2c76447bdb4162237694e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ClickSound: {fileID: 3549275903249613989}
 --- !u!114 &3350463587809283520
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -367,19 +380,6 @@ MonoBehaviour:
   ClickSound: {fileID: 6593645074801082089}
   Sprite: {fileID: 3350463587809283526}
   Cirle: {fileID: 8440221340479443845}
---- !u!114 &9208079945054135478
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3350463587809283533}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9816d2b79cdd96e4e93fac1b6f009bf9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ClickSound: {fileID: 3549275903249613989}
 --- !u!1 &3350463588092971474
 GameObject:
   m_ObjectHideFlags: 0
