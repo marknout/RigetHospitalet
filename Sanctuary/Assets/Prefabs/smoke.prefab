@@ -1693,7 +1693,7 @@ ParticleSystem:
     orbitalY:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 3.84
+      scalar: -3.84
       minScalar: -3.84
       maxCurve:
         serializedVersion: 2
@@ -4816,7 +4816,6 @@ MonoBehaviour:
   smoke: {fileID: 4925650924792178163}
   smoking: 0
   alive: 0
-  sound: 0
   rate: 1
   aSource: {fileID: 590180823}
   soundEffect: {fileID: 8300000, guid: 7e54991b022298c4aabc51769393e26e, type: 3}

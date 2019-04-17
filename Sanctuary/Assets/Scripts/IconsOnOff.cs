@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SwanScript : MonoBehaviour
+public class IconsOnOff : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -12,7 +12,6 @@ public class SwanScript : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-   
     {
         
     }

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Request : MonoBehaviour
 {
-    public SpriteRenderer speechBubble;
+    public UnityEngine.SpriteRenderer speechBubble;
     public AudioSource sound;
     public AudioSource EnterSound;
     public AudioSource ExitSound;

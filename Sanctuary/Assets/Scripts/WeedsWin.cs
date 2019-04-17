@@ -7,7 +7,7 @@ public class WeedsWin : MonoBehaviour
   
     public AudioSource ClickSound;
     
-    public SpriteRenderer Sprite;
+    public UnityEngine.SpriteRenderer Sprite;
     
     public BoxCollider2D Cirle;
 

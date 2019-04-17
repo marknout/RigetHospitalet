@@ -6,11 +6,11 @@ public class Shovel : MonoBehaviour
 {
 
     private SpawnObject Flower;
-    public SpriteRenderer CircleWater;
-    public SpriteRenderer CircleAxe;
-    public SpriteRenderer CircleInfo;
-    public SpriteRenderer CirclePoke;
-    public SpriteRenderer CircleShovel;
+    public UnityEngine.SpriteRenderer CircleWater;
+    public UnityEngine.SpriteRenderer CircleAxe;
+    public UnityEngine.SpriteRenderer CircleInfo;
+    public UnityEngine.SpriteRenderer CirclePoke;
+    public UnityEngine.SpriteRenderer CircleShovel;
     public AudioSource ClickSound;
 
 

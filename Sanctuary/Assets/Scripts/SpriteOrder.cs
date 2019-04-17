@@ -5,7 +5,7 @@ public class SpriteOrder : MonoBehaviour {
 
     void Update()
     {
-        GetComponent<SpriteRenderer>().sortingOrder = -(int)(transform.position.y);
+        GetComponent<UnityEngine.SpriteRenderer>().sortingOrder = -(int)(transform.position.y);
     }
 
 

@@ -44,7 +44,11 @@ TextureImporter:
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 9
+<<<<<<< HEAD
   spritePivot: {x: 0.5, y: 0.09595959}
+=======
+  spritePivot: {x: 0.54668427, y: 0.12864718}
+>>>>>>> parent of 273bc44... mathias
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
@@ -141,7 +145,11 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
+<<<<<<< HEAD
     spriteID: b653caecfe665c64a861430c3dde53a3
+=======
+    spriteID: 371beec188e78b649a2a0bbee1903300
+>>>>>>> parent of 273bc44... mathias
     vertices: []
     indices: 
     edges: []

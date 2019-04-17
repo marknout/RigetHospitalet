@@ -24,7 +24,7 @@ public class Grow : MonoBehaviour
         {
             if (StaticPlayer.playerState == StaticPlayer.PlayerState.waterState)
             {
-                this.gameObject.GetComponent<SpriteRenderer>().sprite = newSprite;
+                this.gameObject.GetComponent<UnityEngine.SpriteRenderer>().sprite = newSprite;
                 ClickSound.pitch = Random.Range(0.8f, 1.2f);
                 ClickSound.Play();
                 particles.Play();
@@ -40,7 +40,7 @@ public class Grow : MonoBehaviour
 
     IEnumerator ParticleCooldown()
     {
-        col.enabled = false;
+        
         yield return new WaitForSeconds(delay);
         col.enabled = true;
     }

@@ -33,6 +33,7 @@ public class SwitchSprite : MonoBehaviour
         sr.enabled = !visualOn;
     }
 
+<<<<<<< HEAD
     void OnMouseDown()
     {
         if (StaticPlayer.playerState == StaticPlayer.PlayerState.noState)
@@ -40,6 +41,12 @@ public class SwitchSprite : MonoBehaviour
             visualOn = !visualOn;
             aSource.PlayOneShot(soundEffect);
         }
+=======
+    public void DoTheSwitch()
+    {
+        visualOn = !visualOn;
+        aSource.PlayOneShot(soundEffect);
+>>>>>>> parent of 273bc44... mathias
     }
                    
 }

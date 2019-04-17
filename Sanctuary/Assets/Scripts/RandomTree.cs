@@ -9,6 +9,6 @@ public class RandomTree : MonoBehaviour {
 	void Start () {
 		ThisTree = Random.Range (0, Trees.Length);
 
-		GetComponent<SpriteRenderer> ().sprite = Trees [ThisTree];
+        GetComponent<UnityEngine.SpriteRenderer>().sprite = Trees[ThisTree];
 	}
 }

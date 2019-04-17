@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MailBox : MonoBehaviour
 {
-    public SpriteRenderer speechBubble;
+    public UnityEngine.SpriteRenderer speechBubble;
     public AudioSource ClickSound;
     // Use this for initialization
     void Start()

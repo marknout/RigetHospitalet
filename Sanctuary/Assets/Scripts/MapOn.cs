@@ -8,8 +8,8 @@ public class MapOn : MonoBehaviour
     public Sprite newSprite;
     public AudioSource ClickSound;
     public GameObject Tree5;
-    public SpriteRenderer speechBubble;
-    public SpriteRenderer Ring;
+    public UnityEngine.SpriteRenderer speechBubble;
+    public UnityEngine.SpriteRenderer Ring;
     public CircleCollider2D Cirle;
 
     void Start()
