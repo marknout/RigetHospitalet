@@ -11,6 +11,9 @@ GameObject:
   - component: {fileID: 6236174255181554423}
   - component: {fileID: 4925650924792178163}
   - component: {fileID: 4031580542681632503}
+  - component: {fileID: 590180821}
+  - component: {fileID: 590180823}
+  - component: {fileID: 590180822}
   m_Layer: 0
   m_Name: smoke
   m_TagString: Untagged
@@ -27,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 5294268785391348600}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 4.26, y: 0, z: 0}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -1286,7 +1289,7 @@ ParticleSystem:
         m_RotationOrder: 4
     separateAxes: 0
   ColorModule:
-    enabled: 1
+    enabled: 0
     gradient:
       serializedVersion: 2
       minMaxState: 1
@@ -4645,7 +4648,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b052a1b66b1b6224bb0f89b916678bdd, type: 2}
+  - {fileID: 10308, guid: 0000000000000000f000000000000000, type: 0}
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -4689,8 +4692,6 @@ ParticleSystemRenderer:
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
   m_MaskInteraction: 0
-<<<<<<< HEAD
-=======
 --- !u!65 &590180821
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4819,4 +4820,3 @@ MonoBehaviour:
   rate: 1
   aSource: {fileID: 590180823}
   soundEffect: {fileID: 8300000, guid: 7e54991b022298c4aabc51769393e26e, type: 3}
->>>>>>> c39f0786ba7c3fca2456e3d8c92dd8bc7a9622e0
