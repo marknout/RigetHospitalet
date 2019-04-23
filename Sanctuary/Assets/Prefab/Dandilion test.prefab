@@ -1366,7 +1366,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e15e2df795c1b464abf2472e0e8fa222, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dandilionSeeds: {fileID: 8614648731218044353}
+  particles: {fileID: 8614648731218044353}
+  delay: 1
 --- !u!114 &8614648730548137448
 MonoBehaviour:
   m_ObjectHideFlags: 0

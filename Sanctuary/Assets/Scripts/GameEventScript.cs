@@ -29,7 +29,7 @@ public class GameEventScript : MonoBehaviour
                 TreeLeaves tl = hit.collider.GetComponent<TreeLeaves>();
                 if (tl != null)
                 {
-                    tl.DoTheLeaves();
+                    
                 }
 
                 SeaSplash sp = hit.collider.GetComponent<SeaSplash>();
@@ -41,7 +41,7 @@ public class GameEventScript : MonoBehaviour
                DandilionScript ds = hit.collider.GetComponent<DandilionScript>();
                 if (ds != null)
                 {
-                    ds.DoTheSeeds();
+          
                 }
 
                 SmokeEnabler sm= hit.collider.GetComponent<SmokeEnabler>();

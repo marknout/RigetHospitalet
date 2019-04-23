@@ -15,7 +15,7 @@ public class TreeLeaves : MonoBehaviour
         col = GetComponent<Collider>();
     }
 
-    public void DoTheLeaves()
+   private void OnMouseDown ()
     {
         if (StaticPlayer.playerState == StaticPlayer.PlayerState.noState)
         {

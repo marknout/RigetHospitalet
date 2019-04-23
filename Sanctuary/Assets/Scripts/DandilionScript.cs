@@ -5,17 +5,29 @@ using UnityEngine;
 public class DandilionScript : MonoBehaviour
 {
 
-    public ParticleSystem dandilionSeeds;
-   
-    public void DoTheSeeds()
+    public ParticleSystem particles;
+    public float delay = 1f;
+
+    Collider col;
+
+    void Start()
+    {
+        col = GetComponent<Collider>();
+    }
+
+    private void OnMouseDown()
     {
         if (StaticPlayer.playerState == StaticPlayer.PlayerState.noState)
         {
-            dandilionSeeds.Play();
-            this.gameObject.GetComponent<Collider>().enabled = false;
-            this.gameObject.GetComponent<SpriteRenderer>().enabled = false;
-
+            particles.Play();
+            StartCoroutine(ParticleCooldown());
         }
+    }
 
+    IEnumerator ParticleCooldown()
+    {
+        col.enabled = false;
+        yield return new WaitForSeconds(delay);
+        col.enabled = true;
     }
 }
