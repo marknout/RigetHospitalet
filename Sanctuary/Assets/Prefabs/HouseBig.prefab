@@ -1,7 +1,11 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &805483329941046008
+=======
+--- !u!1 &1091869081374027157
+>>>>>>> parent of 273bc44... mathias
 =======
 --- !u!1 &1091869081374027157
 >>>>>>> parent of 273bc44... mathias
@@ -13,6 +17,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - component: {fileID: 805483329941046015}
   - component: {fileID: 805483329941046012}
   - component: {fileID: 805483329941046010}
@@ -20,6 +25,8 @@ GameObject:
   - component: {fileID: 291256193884549994}
   m_Layer: 0
 =======
+=======
+>>>>>>> parent of 273bc44... mathias
   - component: {fileID: 1091869081374027158}
   - component: {fileID: 1091869081374027159}
   m_Layer: 0
@@ -105,6 +112,9 @@ GameObject:
   - component: {fileID: 1091869083022248131}
   - component: {fileID: 1091869083022248130}
   m_Layer: 9
+<<<<<<< HEAD
+>>>>>>> parent of 273bc44... mathias
+=======
 >>>>>>> parent of 273bc44... mathias
   m_Name: HouseBig
   m_TagString: Untagged
@@ -113,7 +123,11 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &805483329941046015
+=======
+--- !u!4 &1091869083022248134
+>>>>>>> parent of 273bc44... mathias
 =======
 --- !u!4 &1091869083022248134
 >>>>>>> parent of 273bc44... mathias
@@ -123,7 +137,11 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 805483329941046008}
+=======
+  m_GameObject: {fileID: 1091869083022248129}
+>>>>>>> parent of 273bc44... mathias
 =======
   m_GameObject: {fileID: 1091869083022248129}
 >>>>>>> parent of 273bc44... mathias
@@ -132,6 +150,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 6748346777896920553}
   - {fileID: 805483330515543983}
   m_Father: {fileID: 0}
@@ -139,12 +158,17 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &805483329941046012
 =======
+=======
+>>>>>>> parent of 273bc44... mathias
   - {fileID: 6461625690987294672}
   - {fileID: 1091869081374027158}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1091869083022248133
+<<<<<<< HEAD
+>>>>>>> parent of 273bc44... mathias
+=======
 >>>>>>> parent of 273bc44... mathias
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -152,7 +176,11 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 805483329941046008}
+=======
+  m_GameObject: {fileID: 1091869083022248129}
+>>>>>>> parent of 273bc44... mathias
 =======
   m_GameObject: {fileID: 1091869083022248129}
 >>>>>>> parent of 273bc44... mathias
@@ -192,7 +220,11 @@ SpriteRenderer:
   m_FlipY: 0
   m_DrawMode: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Size: {x: 2.75, y: 3.63}
+=======
+  m_Size: {x: 2.54, y: 3.15}
+>>>>>>> parent of 273bc44... mathias
 =======
   m_Size: {x: 2.54, y: 3.15}
 >>>>>>> parent of 273bc44... mathias
@@ -202,8 +234,11 @@ SpriteRenderer:
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!82 &805483329941046010
 =======
+=======
+>>>>>>> parent of 273bc44... mathias
 --- !u!114 &1091869083022248132
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -220,6 +255,9 @@ MonoBehaviour:
   aSource: {fileID: 1091869083022248131}
   soundEffect: {fileID: 8300000, guid: 28cef482149c201419f12f97a08fd5ec, type: 3}
 --- !u!82 &1091869083022248131
+<<<<<<< HEAD
+>>>>>>> parent of 273bc44... mathias
+=======
 >>>>>>> parent of 273bc44... mathias
 AudioSource:
   m_ObjectHideFlags: 0
@@ -227,7 +265,11 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 805483329941046008}
+=======
+  m_GameObject: {fileID: 1091869083022248129}
+>>>>>>> parent of 273bc44... mathias
 =======
   m_GameObject: {fileID: 1091869083022248129}
 >>>>>>> parent of 273bc44... mathias
@@ -321,7 +363,11 @@ AudioSource:
     m_PostInfinity: 2
     m_RotationOrder: 4
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!65 &805483329941046011
+=======
+--- !u!65 &1091869083022248130
+>>>>>>> parent of 273bc44... mathias
 =======
 --- !u!65 &1091869083022248130
 >>>>>>> parent of 273bc44... mathias
@@ -331,7 +377,11 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 805483329941046008}
+=======
+  m_GameObject: {fileID: 1091869083022248129}
+>>>>>>> parent of 273bc44... mathias
 =======
   m_GameObject: {fileID: 1091869083022248129}
 >>>>>>> parent of 273bc44... mathias
@@ -341,6 +391,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.13, y: 2.83, z: 0.2}
   m_Center: {x: -0.0092225075, y: 1.36, z: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!114 &291256193884549994
 MonoBehaviour:
@@ -440,10 +491,14 @@ SpriteRenderer:
 =======
 --- !u!1001 &1091869083166412071
 >>>>>>> parent of 273bc44... mathias
+=======
+--- !u!1001 &1091869083166412071
+>>>>>>> parent of 273bc44... mathias
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+<<<<<<< HEAD
 <<<<<<< HEAD
     m_TransformParent: {fileID: 805483329941046015}
     m_Modifications:
@@ -452,6 +507,8 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: 0.4
 =======
+=======
+>>>>>>> parent of 273bc44... mathias
     m_TransformParent: {fileID: 1091869083022248134}
     m_Modifications:
     - target: {fileID: 5294268785391348600, guid: 12543fe29d511fd4e8d66be6d6ab2c85,
@@ -468,6 +525,9 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.248
+<<<<<<< HEAD
+>>>>>>> parent of 273bc44... mathias
+=======
 >>>>>>> parent of 273bc44... mathias
       objectReference: {fileID: 0}
     - target: {fileID: 6236174255181554423, guid: 12543fe29d511fd4e8d66be6d6ab2c85,
@@ -521,6 +581,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
     - target: {fileID: 5294268785391348600, guid: 12543fe29d511fd4e8d66be6d6ab2c85,
         type: 3}
       propertyPath: m_Name
@@ -539,6 +600,8 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 805483329783252766}
 =======
+=======
+>>>>>>> parent of 273bc44... mathias
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12543fe29d511fd4e8d66be6d6ab2c85, type: 3}
 --- !u!4 &6461625690987294672 stripped
@@ -546,5 +609,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6236174255181554423, guid: 12543fe29d511fd4e8d66be6d6ab2c85,
     type: 3}
   m_PrefabInstance: {fileID: 1091869083166412071}
+<<<<<<< HEAD
+>>>>>>> parent of 273bc44... mathias
+=======
 >>>>>>> parent of 273bc44... mathias
   m_PrefabAsset: {fileID: 0}

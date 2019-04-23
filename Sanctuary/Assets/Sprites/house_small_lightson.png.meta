@@ -45,7 +45,11 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 9
 <<<<<<< HEAD
+<<<<<<< HEAD
   spritePivot: {x: 0.5, y: 0.12377382}
+=======
+  spritePivot: {x: 0.50363094, y: 0.12377382}
+>>>>>>> parent of 273bc44... mathias
 =======
   spritePivot: {x: 0.50363094, y: 0.12377382}
 >>>>>>> parent of 273bc44... mathias
@@ -146,7 +150,11 @@ TextureImporter:
     physicsShape: []
     bones: []
 <<<<<<< HEAD
+<<<<<<< HEAD
     spriteID: f5d2c62c800e0434b8cc897e06eff48e
+=======
+    spriteID: 9bffbb582887f424f8a1520a0f07f129
+>>>>>>> parent of 273bc44... mathias
 =======
     spriteID: 9bffbb582887f424f8a1520a0f07f129
 >>>>>>> parent of 273bc44... mathias

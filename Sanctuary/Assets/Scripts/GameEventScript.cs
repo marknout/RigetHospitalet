@@ -49,11 +49,9 @@ public class GameEventScript : MonoBehaviour
                 {
                     sm.DoTheSmoke();
                 }
-                SwitchSprite sw = hit.collider.GetComponent<SwitchSprite>();
-                if (sw != null)
-                {
-                    sw.DoTheSwitch();
-                }
+        
+              
+                
             }
             //}
         }
